@@ -35,6 +35,7 @@ Width and height are pixels.
 | 1.14C  | 240   |  135   | TFT   | [ST7789][5d]   | [T-Display][9m]              | ESP32 with attached display.                 |
 | 2.8C K | 240   |  320   | TFT   | [ILI9341][6d]  | [Adafruit touch shield][28m] | Arduino shield format capacitive touch.      |
 | 2.8C T | 320   |  240   | TFT   | [ST7789][5d]   | [Waveshare pico 2.8][10m]    | Display for Pi Pico. (Touch support).        |
+| 2.8C V | 320   |  240   | TFT   | [ST7789][5d]   | [Waveshare ESP32-S3 2.8][37m]| Waveshare ESP32-S3 2.8 inch touch LCD        | *
 | 1.14C  | 240   |  135   | TFT   | [ST7789][5d]   | [Waveshare pico 1.14][11m]   | For Pi Pico. Buttons good for micro-gui.     |
 | 1.14C  | 240   |  135   | TFT   | [ST7789][5d]   | [Pimoroni pico 1.14][23m]    | For Pi Pico. Buttons good for micro-gui.     |
 | 1.47C  | 320   |  172   | TFT   | [ST7789][5d]   | [DFR0995][31m]               |                                              |
@@ -118,6 +119,7 @@ simple. See [this doc](./DRIVERS.md#7-writing-device-drivers) for details.
 | K     | [FT6206][3t]  | Capacitive touch controller.                    |
 | Q     | [CST816S][4t] | Capacitive touch controller.                    |
 | S     | [CST820][5t]  | Capacitive touch controller.                    |
+| V     | [CST328][6t]  | Capacitive touch controller.                    |
 
 # Links
 
@@ -186,12 +188,14 @@ simple. See [this doc](./DRIVERS.md#7-writing-device-drivers) for details.
 [34m]: https://www.amazon.co.uk/DIYmalls-ESP32-2432S024C-Capacitive-ESP-WROOM-32-Development/dp/B0CLGD2DG6
 [35m]: https://www.waveshare.com/pico-epaper-2.13.htm
 [36m]: https://www.waveshare.com/Pico-ePaper-2.9.htm
+[37m]: https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.8
 
 [1t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#tsc2007
 [2t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#xpt2046
 [3t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#ft6206-capacitive-controller
 [4t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#cst816s-capacitive-controller
 [5t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#cst820-capacitive-controller
+[6t]: https://github.com/peterhinch/micropython-touch/blob/master/TOUCHPAD.md#cst328-capacitive-controller
 
 [1q]: https://www.adafruit.com/product/5423
 
